@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Manrope:wght@800&display=swap');
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advice{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.25rem;
+}
+main{
+    font-family: 'Manrope', sans-serif;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    text-align: center;
+}
+.box{
+    background-color: hsl(217, 19%, 24%);
+    margin-top: 20vh;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    color: white;
+}
+.in-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-divider{
+    margin-bottom: 2.5rem;
+}
+button{
+    background-color:hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 100%;
+    width:3.55rem;
+    height: 3.55rem;
+}
+.ad{
+   margin-top: 1rem;
+    color: white;
+}
+a{
+    color: deepskyblue;
+}
+
+@media screen and (min-width: 500px){
+    main{
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+}
